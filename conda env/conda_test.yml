@@ -1,0 +1,11 @@
+#conda env create -f conda_test.yml
+
+name: nniae
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pylint
+  - black
+  - pandas
+  - matplotlib

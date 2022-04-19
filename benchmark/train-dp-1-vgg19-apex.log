@@ -1,0 +1,17 @@
+Model: vgg19
+Batch size: 128
+Number of GPUs: 1
+Running warmup...
+Running benchmark...
+Iter #0: 366.9 img/sec per GPU
+Iter #1: 365.5 img/sec per GPU
+Iter #2: 361.8 img/sec per GPU
+Iter #3: 352.9 img/sec per GPU
+Iter #4: 344.4 img/sec per GPU
+Iter #5: 338.4 img/sec per GPU
+Iter #6: 333.5 img/sec per GPU
+Iter #7: 330.3 img/sec per GPU
+Iter #8: 330.4 img/sec per GPU
+Iter #9: 330.7 img/sec per GPU
+Img/sec per GPU: 345.5 +-28.1
+Total img/sec on 1 GPU(s): 345.5 +-28.1
