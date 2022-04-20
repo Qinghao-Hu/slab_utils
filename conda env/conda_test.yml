@@ -1,10 +1,10 @@
 #conda env create -f conda_test.yml
 
-name: nniae
+name: jax
 channels:
   - defaults
 dependencies:
-  - python=3.7
+  - python=3.9
   - pylint
   - black
   - pandas
