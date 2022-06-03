@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(
     description="PyTorch DP Synthetic Benchmark", formatter_class=argparse.ArgumentDefaultsHelpFormatter
 )
 
-parser.add_argument("--model", type=str, default="resnet18", help="model to benchmark")
+parser.add_argument("--model", type=str, default="mobilenet_v3_large", help="model to benchmark")
 parser.add_argument("--batch-size", type=int, default=32, help="input batch size")
 parser.add_argument("--num-gpus", type=int, default=1, help="number of gpus")
 parser.add_argument("--gpu", default=None, type=int, help="GPU id to use. Only work when use single gpu.")
